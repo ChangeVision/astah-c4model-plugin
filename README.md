@@ -1,4 +1,4 @@
-c4model plugin
+Astah C4 model plugin
 ===============================
 ![Sample Image](doc/c4model.png)
 
