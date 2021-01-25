@@ -73,7 +73,8 @@ In the skelton project file you downloaded, several Customized Icons for «Conta
 ![Sample Image](doc/c4model_16.png)
 2. Next, choose one and click with your right mouse button, then you will see a Context menu.  From the menu, choose "Set Customized Icon ...", 
    ![Sample Image](doc/c4model_32.png)
-then you will see the Customized Icon Set Window as follows.
+   
+  then you will see the Customized Icon Set Window as follows.
    ![Sample Image](doc/c4model_17.png)
 3. Among the registered Customized Icons shown in the window, choose any icon. For example, if you choose the application-look icon, then the appearance of the model element will be changed as follows:  
    ![Sample Image](doc/c4model_18.png)
@@ -102,8 +103,8 @@ Next let us see how we can create and represent abstract relations among model e
    Create a new class diagram in the same project.
    ![Sample Image](doc/c4model_26.png)
 5. Let us deploy diagram elements of the existing model elements.  More precisely, drag the models  MyContainer1，MyContainer2，MyContainer3, and MyClass1 from the Structure Tree and drop them on to the diagram.
-   ![Sample Image](doc/c4model_27.png)
    After the drag and drop actions, the diagram must be as follows.
+   ![Sample Image](doc/c4model_27.png)
 6. Align those diagram element appropriately.
    ![Sample Image](doc/c4model_28.png)
 7. At this point, push "Reflect c4model texts to the model" button.
