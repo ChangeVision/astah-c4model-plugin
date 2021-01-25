@@ -70,12 +70,12 @@ For example, you may want to use different Customized Icons for different C4 mod
 Astah supports associating two or more Customized Icons for one stereotype.
 In the skelton project file you downloaded, several Customized Icons for «Container» and «Software System» are already associated. Let's try it.
 1. First, prepare some Container elements.
-![Sample Image](doc/c4model_16.png)
-2. Next, choose one and click with your right mouse button, then you will see a Context menu.  From the menu, choose "Set Customized Icon ...", 
+   ![Sample Image](doc/c4model_16.png)
+2. Next, choose one and click with your right mouse button, then you will see a Context menu.  
+   From the menu, choose "Set Customized Icon ...",
    ![Sample Image](doc/c4model_32.png)
-   
-  then you will see the Customized Icon Set Window as follows.
-   ![Sample Image](doc/c4model_17.png)
+   - then you will see the Customized Icon Set Window as follows.
+      ![Sample Image](doc/c4model_17.png)
 3. Among the registered Customized Icons shown in the window, choose any icon. For example, if you choose the application-look icon, then the appearance of the model element will be changed as follows:  
    ![Sample Image](doc/c4model_18.png)
 4. Changing the Customized Icons for other model elements, for example, containers can be represented with several appearances as follows:
