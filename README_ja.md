@@ -16,15 +16,12 @@ Description
 
 How to install
 ----------------
-[ここから、プラグイン.jarファイルをダウンロードします。](http://astah.change-vision.com/ja/feature/redmine.html)
 
-### astah* UML、professional、SysMLをご利用の場合
+0. ソースから .jarファイルをbuildしてください。
 1. 上部メニュー[ヘルプ] – [プラグイン一覧] からプラグイン一覧を開きます。
 2. [インストール] ボタンをクリックし、jarファイルを選択してインストールしてください。
 3. astah* を再起動し、プロジェクトを開きます。
 4. 下部の拡張ビューに[C4model]タブが追加されます。
-
-(astah* UML、professional 6.8以降をご利用の場合は、ダウンロードした.jarファイルを、astah*のツールバーにドラッグ＆ドロップすることでもインストールが可能です。)
 
 使い方
 ----------------
