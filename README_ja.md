@@ -17,7 +17,8 @@ Description
 How to install
 ----------------
 
-0. ソースから .jarファイルをbuildしてください。
+0. 以下から .jarファイルをダウンロードしてください。
+   https://github.com/ChangeVision/astah-c4model-plugin/releases/tag/v1.0
 1. 上部メニュー[ヘルプ] – [プラグイン一覧] からプラグイン一覧を開きます。
 2. [インストール] ボタンをクリックし、jarファイルを選択してインストールしてください。
 3. astah* を再起動し、プロジェクトを開きます。

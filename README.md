@@ -17,7 +17,8 @@ A plugin for constructing [C4 model](https://c4model.com).
 
 How to install
 ----------------
-0. Build the sources to obtain .jar file.
+0. Download .jar file from
+   https://github.com/ChangeVision/astah-c4model-plugin/releases/tag/v1.0
 1. Launch Astah and drag the downloaded .jar file to an open instance of Astah. A pop-up will appear asking you to confirm installation, choose [Yes].
 2. If the pop-up opens, restart Astah and open any project.
 3. Now you will have [C4 model] Tab in the Extension View below the Diagram Editor.
