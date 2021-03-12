@@ -9,7 +9,7 @@ Version
 
 Available for
 ----------------
-Astah professional 8.3 or later
+astah* professional 8.3 or later, astah* UML 8.3 or later
 
 Description
 ----------------
