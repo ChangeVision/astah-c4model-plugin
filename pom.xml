@@ -6,7 +6,7 @@
 		<bundle.namespace>astah.plugin</bundle.namespace>
 		<plugin.install>true</plugin.install>
 		<astah.version>1.0</astah.version>
-		<astah.edition>pro</astah.edition>
+		<astah.edition>all</astah.edition>
         <kotlin.version>1.3.72</kotlin.version>
     </properties>
 	<modelVersion>4.0.0</modelVersion>
