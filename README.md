@@ -30,7 +30,8 @@ How to use
 
 1. Open project [c4model-skeleton.asta] in the [sample] folder.
    ![Sample Image](doc/c4model_01a.png) 
-   - You can see the stereotypes and the associated SVG images registered to the project.  You can register two or more images to one stereotype.
+   - You can see the stereotypes with the associated SVG images registered to the project.  You can register two or more images to one stereotype.
+   - Another way is to use the svg image files, which are registered in the c4model-skeleton.asta project file, placed at the same place in the zip format.  Please check [a manual page of Astah](https://astah.net/support/astah-pro/user-guide/stereotype-icon/)  and you can register those svg files as customized icons in an arbitrary existing Astah project.
 
 ### Basics on constructing a model of C4model
 

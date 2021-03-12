@@ -31,6 +31,7 @@ How to install
 1. c4model-skeleton.astaを読み込みます。
    ![Sample Image](doc/c4model_01a.png)
     - 構造ツリーのルートを選択することにより，  プロパティービューの「プロファイルーステレオタイプ」タブに，登録されているステレオタイプと SVG画像を確認することができます。 同じステレオタイプに対して複数の画像を登録することもできます。
+    - また，c4model-skeleton.astaに登録してあるsvgファイルも同じ場所にzip形式で置いてありますので，[astah本体のマニュアルページ](https://astah.change-vision.com/ja/manual/330-property-view.html#icon) の「TIPS: アイコンを複数まとめて登録する」を参考にして，既存プロジェクトに登録することもできます。
 
 ### モデル作成の基本
 
