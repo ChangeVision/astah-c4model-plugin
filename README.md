@@ -5,7 +5,7 @@ Astah C4 model plugin
 Version
 ----------------
 
-1.0
+1.1
 
 Available for
 ----------------
@@ -39,21 +39,16 @@ How to use
    ![Sample Image](doc/c4model_02a.png)
 2. Create a class with a stereotype «Software System» on that diagram. One of the possible ways to add a stereotype to a class is first you select a class on a diagram, then you can see a property view for the class and you can choose stereotypes from a pull-down menu in the stereotype tab.  Although, for modeling with the C4 model, several specific stereotypes are used, you can also introduce arbitrary stereotypes.   
    ![Sample Image](doc/c4model_03a.png)
-3. Next, while the created class diagram is displayed, push "Refresh (based on model)" button on C4model Tab in Extension Tab.  Just after the action, the diagram editor must be like the following:
+3. If a created class has a C4 model stereotype, then the diagram element of the class will be expressed as the corresponding C4 model diagram element.  If the diagram element has not been changed, , push "Refresh (based on model)" button on C4model Tab in Extension Tab.
    ![Sample Image](doc/c4model_06a.png)
    - At this point, fix those texts. Then the status will be changed as follows:
      ![Sample Image](doc/c4model_07a.png)
-     As you can see, the name of and the stereotype are placed on the Customized Icon associated with the stereotype «Software System».  Moreover, if the target class does not have an attribute named "description", then the triggered actions by the button include to introduce that attribute and set "(undefined)" as an initial value.  
-   - Now, try to move the Customized Icon (the blue rectangle) of the class on the diagram to some extent.
-     ![Sample Image](doc/c4model_08a.png)
-   - You will see that the positions of the Customized Icon and the Texts in Diagrams on that Customized Icon are not well-alined. Then, push the button "Refresh（based on model）" in the C4model Tab.
-      ![Sample Image](doc/c4model_09b.png)
-     As you see, the Customized Icon of the target class and the Texts in Diagrams representing the information of the class are independent diagram elements but the plugin holds the the relationship and using the information the plugin also alines their positions appropriately. 
+     As you can see, the name of and the stereotype are placed on the Customized Icon associated with the stereotype «Software System».  Moreover, if the target class does not have an attribute named "description", then the triggered actions by the button include to introduce that attribute and set "(undefined)" as an initial value.
 4. The next action is to edit attributes of C4 model elements through diagram elements. Change the Text in Diagram representing the class name through the Diagram editor.  Change from "Class0" to "Class1".
    ![Sample Image](doc/c4model_10b.png)
-   - Take a look at the structure tree.  At this timing, the structure of the model is not changed.  Them push "Reflect c4model texts to the model".
+   - Take a look at the structure tree and you will see the model has been changed.
+     If no change on the diagram has been recognized, push "Reflect c4model texts to the model".
      ![Sample Image](doc/c4model_11a.png)
-     After that, you can see that the change has been reflected to the structure of the model.
 
 ### Create relations between model elements in C4model
 1. Prepare any two C4 model model elements as follows.
@@ -63,10 +58,6 @@ How to use
 3. Here, write the definition of the dependency relation.  A definition of an dependency relation can be inputted through the property view of the relation.
    ![Sample Image](doc/c4model_14.png)
    
-4. After determining the definition, push "Reflect c4model texts to the model".
-   ![Sample Image](doc/c4model_15.png)
-As you see, the definition you wrote is reflected to the diagram. 
-
 ### Use several Customized Icons for one stereotype
 For example, you may want to use different Customized Icons for different C4 model elements those have the same ≪Container≫ stereotype.
 Astah supports associating two or more Customized Icons for one stereotype.
@@ -105,11 +96,7 @@ Next let us see how we can create and represent abstract relations among model e
    Create a new class diagram in the same project.
    ![Sample Image](doc/c4model_26.png)
 5. Let us deploy diagram elements of the existing model elements.  More precisely, drag the models  MyContainer1，MyContainer2，MyContainer3, and MyClass1 from the Structure Tree and drop them on to the diagram.
-   After the drag and drop actions, the diagram must be as follows.
-   ![Sample Image](doc/c4model_27.png)
-6. Align those diagram element appropriately.
-   ![Sample Image](doc/c4model_28.png)
-7. At this point, push "Reflect c4model texts to the model" button.
+6. Then align those elements appropriately.
    ![Sample Image](doc/c4model_29.png)
    As you see, the diagram elements MyContainer1，MyContainer2，MyContainer3 that have the common parent model element are covered by a rectangle with the information on the parent model.
 ### Others
@@ -117,7 +104,7 @@ Next let us see how we can create and represent abstract relations among model e
   ![Sample Image](doc/c4model_30.png)
 * For relations, there is no special place to store the technology attribute.  To draw technologies for relations, for example, just write information on technology in the definition of the dependency relation as follows.
   ![Sample Image](doc/c4model_31.png)
-* Note that the "undo" action for the action triggered by "Reflect c4model texts to the model" requires several actions of holding button down since one action of "Reflect c4model texts to the model" button implies several Astah editing actions.
+* Note that the "undo" action for an action for C4model elements, e.g. a move,  requires several actions of holding button down since one action of "Reflect c4model texts to the model" button implies several Astah editing actions.
 
 License
 ---------------
